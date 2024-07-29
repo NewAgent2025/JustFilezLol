@@ -1,0 +1,12 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\cmd]
+@="URL:Command Executor"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\cmd\shell]
+
+[HKEY_CLASSES_ROOT\cmd\shell\open]
+
+[HKEY_CLASSES_ROOT\cmd\shell\open\command]
+@="\"C:\\Protocols\\cmd.exe\" \"%1\""
